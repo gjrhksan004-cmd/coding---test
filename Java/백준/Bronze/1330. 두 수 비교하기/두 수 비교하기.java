@@ -1,17 +1,16 @@
-
 import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        double A = sc.nextInt();
-        double B = sc.nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        
         if (A > B){
             System.out.println(">");
-        } else if (A < B) {
+        }else if (A < B) {
             System.out.println("<");
-        }else {
+        }else{
             System.out.println("==");
         }
-        sc.close();
     }
 }
